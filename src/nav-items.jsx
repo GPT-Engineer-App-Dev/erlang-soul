@@ -1,5 +1,4 @@
-import { Home, Code2 } from "lucide-react";
-import Index from "./pages/Index.jsx";
+import { Code2 } from "lucide-react";
 import SoulOfErlang from "./pages/SoulOfErlang.jsx";
 
 /**
@@ -7,14 +6,8 @@ import SoulOfErlang from "./pages/SoulOfErlang.jsx";
  */
 export const navItems = [
   {
-    title: "Home",
-    to: "/",
-    icon: <Home className="h-4 w-4" />,
-    page: <Index />,
-  },
-  {
     title: "Soul of Erlang",
-    to: "/soul-of-erlang",
+    to: "/",
     icon: <Code2 className="h-4 w-4" />,
     page: <SoulOfErlang />,
   },
